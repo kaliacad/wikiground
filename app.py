@@ -17,7 +17,7 @@ def set_wallpaper(image_path):
 def is_argument_free():
     return len(argv) == 1
 
-if (is_argument_free == True):
+if (is_argument_free() == True):
     get_wallpaper()
 else:
     image_path = argv[1]
